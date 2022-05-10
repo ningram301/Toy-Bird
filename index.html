@@ -25,7 +25,7 @@
     }
 
   .carousel-inner img {
-      width: 100%; /* Set width to 100% */
+      width: 80%; /* Set width to 100% */
       margin: auto;
       min-height:200px;
   }
@@ -35,6 +35,14 @@
     .carousel-caption {
       display: none;
     }
+  }
+
+  p {
+    color:black;
+  }
+
+  h3 {
+    color:#33ffff;
   }
   </style>
 </head>
@@ -48,14 +56,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#">Little Bird Toys</a>
+
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -67,39 +74,66 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="0"></li>
+      <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="myCarousel" data-slide-to="1" ></li>
+      <li data-target="myCarousel" data-slide-to="2" class="carousel slide"></li>
+      <li data-target="myCarousel" data-slide-to="3"></li>
+
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="" alt="Image">
+      <div class="carousel slide">
+        <img src="Little Bird Toy Co Site Photos\plane2.jpg">
         <div class="carousel-caption">
           <h3>Wooden Toy Airplane</h3>
-          <p>Money Money.</p>
+          <p> A little wooden plane for your little piolts who to travel around the world and soar through the skies with this little wooden toy plane for ages 2+ and coming at a price of only $7.99 and enjoy the flight of your imagination   </p>
         </div>
       </div>
 
 
-      <div class="item">
-        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+      <div class="carousel slide">
+        <img src="Little Bird Toy Co Site Photos\train2.jpg">
         <div class="carousel-caption">
           <h3>Wooden Toy Train</h3>
-          <p>Lorem ipsum...</p>
+          <p>A little wooden train for all of your trained conductors out there ready for the train tracks and only coming at a price at $5.99 </p>
         </div>
       </div>
     </div>
 
-    <div class="item">
-      <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
-      <div class="carousel-indicators">
-        <h3>Wooden Toy Block Set</h3>
-        <p>Lorem ipsum...</p>
+    <div class="carousel slide">
+      <img src="Little Bird Toy Co Site Photos\boat2.jpg">
+      <div class="carousel-caption">
+        <h3>Wooden Toy Boat</h3>
+        <p>A little wooden boat for all your little sailors who are o sail the seven seas and coming at a price at $6.50</p>
       </div>
     </div>
   </div>
+
+  <div class="carousel slide">
+    <img src="Little Bird Toy Co Site Photos\car1.jpg">
+    <div class="carousel-caption">
+      <h3>Wooden Toy Car</h3>
+      <p>Driving around though all the big cities and racing for the thrill and only at a price at $4.99</p>
+    </div>
+  </div>
+</div>
+
+<div class="carousel slide">
+  <img src="Little Bird Toy Co Site Photos\block2.jpg">
+  <div class="carousel-caption">
+    <h3>Wooden Toy Block Set</h3>
+    <p>Ready to let your imgination run wild with it you can practicaly build whatever you want and only coming at a price of $9.99</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
 
 
 
@@ -112,7 +146,7 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
+<!-- </div> -->
 
 <div class="container text-center">
   <h3>What We Do</h3><br>
@@ -142,3 +176,4 @@
 
 </body>
 </html>
+
